@@ -3,7 +3,7 @@
   "type": "app",
   "config": {
     "description": "An example to demonstrate how to build an app with an app object on developer projects.",
-    "name": "my first app object app",
+    "name": "My first app object app",
     "distribution" : "marketplace",
     "auth": {
       "type" : "oauth",

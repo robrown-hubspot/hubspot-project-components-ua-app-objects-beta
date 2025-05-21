@@ -3,7 +3,7 @@
   "type": "app",
   "config": {
     "description": "An example to demonstrate how to build a marketplace app with developer projects.",
-    "name": "Get started with apps",
+    "name": "My first marketplace app",
     "distribution" : "marketplace",
     "auth": {
       "type" : "oauth",

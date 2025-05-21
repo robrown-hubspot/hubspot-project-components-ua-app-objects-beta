@@ -10,13 +10,13 @@
       "crmObjects": [
         {
           "subscriptionType": "object.propertyChange",
-          "objectName": "contact",
+          "objectType": "contact",
           "propertyName": "firstname",
           "active": true
         },
         {
           "subscriptionType": "object.creation",
-          "objectName": "contact",
+          "objectType": "contact",
           "active": true
         }
       ],

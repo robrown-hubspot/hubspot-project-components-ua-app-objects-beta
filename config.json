@@ -8,7 +8,13 @@
   ],
   "projects": [
     {
-      "name": "getting-started-public-app",
+      "name": "private-app-oauth-getting-started-template",
+      "label": "Getting started project with private app using OAuth",
+      "path": "projects/private-app-oauth-getting-started-template",
+      "insertPath": "./"
+    },
+    {
+      "name": "public-app-getting-started-template",
       "label": "Getting started project with marketplace app",
       "path": "projects/public-app-getting-started-template",
       "insertPath": "./"

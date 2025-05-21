@@ -3,7 +3,7 @@
   "type": "app",
   "config": {
     "description": "An example to demonstrate how to build a private app using OAuth with developer projects.",
-    "name": "Get started with apps",
+    "name": "My first private oauth app",
     "distribution" : "private",
     "auth": {
       "type" : "oauth",

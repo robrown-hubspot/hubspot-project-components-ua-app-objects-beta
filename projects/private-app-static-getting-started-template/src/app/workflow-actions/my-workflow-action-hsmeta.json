@@ -1,0 +1,79 @@
+{
+  "uid": "my_workflow_action_private_static",
+  "type": "workflow-action",
+  "config": {
+    "actionUrl": "https://example.com/hubspot",
+    "isPublished": true,
+    "supportedClients": [
+      {
+        "client": "WORKFLOWS"
+      }
+    ],
+    "inputFields": [
+      {
+        "typeDefinition": {
+          "name": "widgetName",
+          "type": "string",
+          "fieldType": "text"
+        },
+        "supportedValueTypes": ["STATIC_VALUE"],
+        "isRequired": true
+      },
+      {
+        "typeDefinition": {
+          "name": "widgetColor",
+          "type": "enumeration",
+          "fieldType": "select",
+          "options": [
+            {
+              "value": "red",
+              "label": "Red"
+            },
+            {
+              "value": "blue",
+              "label": "Blue"
+            },
+            {
+              "value": "green",
+              "label": "Green"
+            }
+          ]
+        },
+        "supportedValueTypes": ["STATIC_VALUE"]
+      },
+      {
+        "typeDefinition": {
+          "name": "widgetOwner",
+          "type": "enumeration",
+          "referencedObjectType": "OWNER"
+        },
+        "supportedValueTypes": ["STATIC_VALUE"]
+      },
+      {
+        "typeDefinition": {
+          "name": "widgetQuantity",
+          "type": "number"
+        },
+        "supportedValueTypes": ["OBJECT_PROPERTY"]
+      }
+    ],
+    "labels": {
+      "en": {
+        "actionName": "Create Widget - Example 1",
+        "actionDescription": "This action will create a new widget in our system. So cool!",
+        "actionCardContent": "Create widget {{widgetName}}",
+        "inputFieldLabels": {
+          "widgetName": "Widget Name",
+          "widgetColor": "Widget Color",
+          "widgetOwner": "Widget Owner",
+          "widgetQuantity": "Widget Quantity"
+        },
+        "inputFieldDescriptions": {
+          "widgetName": "Enter the full widget name. I support <a href=\"https://hubspot.com\">links</a> too.",
+          "widgetColor": "This is the color that will be used to paint the widget."
+        }
+      }
+    },
+    "objectTypes": ["CONTACT", "DEAL"]
+  }
+}

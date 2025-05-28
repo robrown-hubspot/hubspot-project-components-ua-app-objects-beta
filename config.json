@@ -12,6 +12,11 @@
       "label": "Getting started project with private app using OAuth",
       "path": "projects/private-app-oauth-getting-started-template",
       "insertPath": "./"
+    },    {
+      "name": "private-app-static-getting-started-template",
+      "label": "Getting started project with private app using an access token",
+      "path": "projects/private-app-static-getting-started-template",
+      "insertPath": "./"
     },
     {
       "name": "public-app-getting-started-template",

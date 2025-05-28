@@ -1,0 +1,31 @@
+{
+  "uid": "get_started_app_private_static",
+  "type": "app",
+  "config": {
+    "description": "An example to demonstrate how to build a private app using a static access token with developer projects.",
+    "name": "My first private static auth app",
+    "distribution" : "private",
+    "auth": {
+      "type" : "static",
+      "requiredScopes": [
+        "crm.objects.contacts.read",
+        "crm.objects.contacts.write",
+        "crm.schemas.companies.read",
+        "crm.schemas.companies.write"
+      ],
+      "optionalScopes": [],
+      "conditionallyRequiredScopes": []
+    },
+    "permittedUrls": {
+      "fetch": ["https://api.hubapi.com"],
+      "iframe": [],
+      "img": []
+    },
+    "support": {
+      "supportEmail": "support@example.com",
+      "documentationUrl": "https://example.com/docs",
+      "supportUrl": "https://example.com/support",
+      "supportPhone": "+18005555555"
+    }
+  }
+}

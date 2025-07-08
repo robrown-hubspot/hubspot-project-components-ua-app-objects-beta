@@ -1,5 +1,5 @@
 {
-  "uid": "getting_started_app",
+  "uid": "get_started_app",
   "type": "app",
   "config": {
     "description": "A basic static token app for testing",

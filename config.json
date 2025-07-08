@@ -20,7 +20,7 @@
     },
     {
       "name": "private-app-get-started-template",
-      "label": "Getting started project with private app using OAuth",
+      "label": "CRM getting started project with private apps",
       "path": "projects/private-app-get-started-template",
       "insertPath": "./"
     },
